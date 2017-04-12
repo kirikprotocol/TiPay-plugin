@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Это пример конфигурации для запуска сервера и консоли в одном tomcat-->
+<Context reloadable="false">
+  <Parameter name="configuration.uri" value="file://${catalina.base}/conf/tipay-frontentd-mobilizer"/>
+  <!--Parameter name="log4jConfiguration" value="${catalina.base}/conf/tipay-frontentd-mobilizer-log4j2.xml"/>
+  <Realm className="org.apache.catalina.realm.JAASRealm"
+         appName="pers-webconsole"
+         userClassNames="mobi.eyeline.pers.web.console.WebUser"
+         roleClassNames="mobi.eyeline.pers.web.console.WebRole"
+         debug="0"/-->
+</Context>

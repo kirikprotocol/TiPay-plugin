@@ -1,0 +1,17 @@
+{
+    "Application-Id":26755,
+    "Origin-Realm":"tipay",
+    "Origin-Host":"bmac",
+    "Destination-Realm":"pers",
+
+    "sessions":{
+      "pers":{
+        "remote":"192.168.1.156:6500",
+        "Auth-Application-Id":"26755"
+      }
+    },
+    
+    "Mobilizer-Url": "http://moiblizer.url/",
+    "Tipay-Url": "http://tipay.url/"
+    
+}

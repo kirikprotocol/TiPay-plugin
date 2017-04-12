@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="IvyIDEA" name="IvyIDEA">
+      <configuration ivyFile="$MODULE_DIR$/ivy.xml" useProjectSettings="true" useCustomIvySettings="true" ivySettingsFile="" onlyResolveSelectedConfigs="false">
+        <propertiesSettings>
+          <propertiesFiles includeProjectLevelPropertiesFiles="true" />
+        </propertiesSettings>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="IvyIDEA-frontent-mobilizer-default">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.pers/protocol/jars/pers-protocol-1.2.4.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.8.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/common/jars/util-common-2.1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.cfg/base/jars/cfg-base-1.2.5.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/collections/jars/util-collections-2.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.8.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.protocol/framework/jars/protocol-framework-2.3.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/timer/jars/util-timer-2.2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.diameter/diameter-base/jars/diameter-base-1.2.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/processing/jars/util-proc-2.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.diameter/eyeline-base/jars/diameter-eyeline-base-1.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.8.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.pers/profile/jars/pers-profile-1.2.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.pers/data/jars/pers-data-1.2.4.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.8.6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/jackson/jars/util-jackson-1.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-web/jars/log4j-web-2.8.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.pers/protocol/javadocs/pers-protocol-javadoc-1.2.4.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-api/javadocs/log4j-api-2.8.2-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/common/javadocs/util-common-javadoc-2.1.2.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.cfg/base/javadocs/cfg-base-javadoc-1.2.5.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/collections/javadocs/util-collections-javadoc-2.1.1.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/javadocs/jackson-core-2.8.8-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.protocol/framework/javadocs/protocol-framework-javadoc-2.3.2.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/timer/javadocs/util-timer-javadoc-2.2.0.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.diameter/diameter-base/javadocs/diameter-base-javadoc-1.2.3.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/processing/javadocs/util-proc-javadoc-2.1.0.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.diameter/eyeline-base/javadocs/diameter-eyeline-base-javadoc-1.2.1.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-core/javadocs/log4j-core-2.8.2-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.pers/profile/javadocs/pers-profile-javadoc-1.2.3.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.pers/data/javadocs/pers-data-javadoc-1.2.4.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/javadocs/jackson-databind-2.8.6-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/javadocs/jackson-annotations-2.8.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/jackson/javadocs/util-jackson-javadoc-1.0.1.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet/javax.servlet-api/javadocs/javax.servlet-api-3.1.0-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-web/javadocs/log4j-web-2.8.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet/servlet-api/sources/servlet-api-2.5-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-lang/commons-lang/sources/commons-lang-2.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.pers/protocol/sources/pers-protocol-sources-1.2.4.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-api/sources/log4j-api-2.8.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/common/sources/util-common-sources-2.1.2.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.cfg/base/sources/cfg-base-sources-1.2.5.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/collections/sources/util-collections-sources-2.1.1.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/sources/jackson-core-2.8.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.protocol/framework/sources/protocol-framework-sources-2.3.2.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/timer/sources/util-timer-sources-2.2.0.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.diameter/diameter-base/sources/diameter-base-sources-1.2.3.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/processing/sources/util-proc-sources-2.1.0.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.diameter/eyeline-base/sources/diameter-eyeline-base-sources-1.2.1.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-core/sources/log4j-core-2.8.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.pers/profile/sources/pers-profile-sources-1.2.3.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.pers/data/sources/pers-data-sources-1.2.4.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/sources/jackson-databind-2.8.6-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/sources/jackson-annotations-2.8.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.util/jackson/sources/util-jackson-sources-1.0.1.zip!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet/javax.servlet-api/sources/javax.servlet-api-3.1.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-web/sources/log4j-web-2.8.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="payment-api" />
+    <orderEntry type="module" module-name="catalogue-api" />
+  </component>
+</module>

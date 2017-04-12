@@ -1,0 +1,27 @@
+<ivy-module version="2.0">
+
+  <info organisation="mobi.eyeline.tipay2" module="frontend-mobilizer"/>
+  <dependencies>
+
+    <dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.+" transitive="false"/>
+    <dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.+" transitive="false"/>
+    <dependency org="org.apache.logging.log4j" name="log4j-web" rev="2.+" transitive="false"/>
+    <dependency org="javax.servlet" name="servlet-api" rev="2.5"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.3"/>
+
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.7.2" transitive="false"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.7.2" transitive="false"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.7.2" transitive="false"/>
+
+    <dependency org="mobi.eyeline.pers" name="protocol" rev="1.2.+"/>
+    <dependency org="mobi.eyeline.pers" name="profile" rev="1.2.+"/>
+
+    
+    <dependency org="mobi.eyeline.tipay2" name="payment-api" rev="1.0.+"/>
+
+    <dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0" force="false"/>
+
+  </dependencies>
+  
+</ivy-module>
+

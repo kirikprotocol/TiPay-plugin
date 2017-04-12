@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="trace" name="XMLConfig" packages="org.apache.logging.log4j">
+
+  <Properties>
+    <Property name="filename">frontend-mobilizer</Property>
+    <Property name="log4jpath">${sys:catalina.base}/logs</Property>
+  </Properties>
+
+  <ThresholdFilter level="trace"/>
+
+  <Appenders>
+    <RollingFile name="File" fileName="${log4jpath}/${filename}.log" filePattern="${log4jpath}/${filename}-%d{MM-dd-yyyy}-%i.log.gz">
+      <PatternLayout>
+        <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+      </PatternLayout>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+        <SizeBasedTriggeringPolicy size="250 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="5"/>
+    </RollingFile>
+  </Appenders>
+
+  <Loggers>
+    <logger name="mobi.eyeline.tipay2.frontend.mobilizer" level="trace" additivity="false">
+      <AppenderRef ref="File"/>
+    </logger>
+    <Root level="error">
+      <AppenderRef ref="File"/>
+    </Root>
+  </Loggers>
+
+</Configuration>
