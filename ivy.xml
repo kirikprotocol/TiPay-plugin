@@ -13,13 +13,14 @@
     <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.7.2" transitive="false"/>
     <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.7.2" transitive="false"/>
 
+    <dependency org="mobi.eyeline.cfg" name="base" rev="1.2.+"/>
     <dependency org="mobi.eyeline.pers" name="protocol" rev="1.2.+"/>
     <dependency org="mobi.eyeline.pers" name="profile" rev="1.2.+"/>
 
-    
-    <dependency org="mobi.eyeline.tipay2" name="payment-api" rev="1.0.+"/>
-
     <dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0" force="false"/>
+
+    <dependency org="org.glassfish.jersey.core" name="jersey-client" rev="2.25.+"/>
+    <dependency org="org.glassfish.jersey.media" name="jersey-media-json-jackson" rev="2.+"/>
 
   </dependencies>
   

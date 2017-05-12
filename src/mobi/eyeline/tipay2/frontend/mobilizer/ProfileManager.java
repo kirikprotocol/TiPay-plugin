@@ -10,10 +10,8 @@ import javax.servlet.http.HttpServletRequest;
  */
 public interface ProfileManager {
 
-
-
-    PersonalProfile getProfile(String uid) throws DiameterException;
-
-    void saveProfileInSession(HttpServletRequest request, PersonalProfile pp);
-
+  PersonalProfile getProfile(String uid) throws DiameterException;
+  PersonalProfile createProfile(String uid, String phone) throws DiameterException;
+  void setPin(String uid, String pin) throws DiameterException;
+  void saveProfileInSession(HttpServletRequest request, PersonalProfile pp);
 }

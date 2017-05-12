@@ -3,9 +3,9 @@
 
 <page>
   <div>
-    <input navigationId="submit" name="pin" title="Установите PIN код"/>
+    <input navigationId="submit" name="pin" title="Введите PIN код"/>
   </div>
   <navigation id="submit">
-    <link accesskey="1" pageId="define_pin_confirm.jsp">Ok</link>
+    <link accesskey="1" pageId="payment.jsp">Ok</link>
   </navigation>
 </page>

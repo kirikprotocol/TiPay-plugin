@@ -1,17 +1,16 @@
 {
-    "Application-Id":26755,
-    "Origin-Realm":"tipay",
-    "Origin-Host":"bmac",
-    "Destination-Realm":"pers",
-
-    "sessions":{
-      "pers":{
-        "remote":"192.168.1.156:6500",
-        "Auth-Application-Id":"26755"
-      }
-    },
-    
-    "Mobilizer-Url": "http://moiblizer.url/",
-    "Tipay-Url": "http://tipay.url/"
-    
+  "Application-Id": 26755,
+  "Origin-Realm": "tipay",
+  "Origin-Host": "bmac",
+  "Destination-Realm": "pers",
+  "sessions": {
+    "pers": {
+      "remote": "192.168.1.156:6500",
+      "Auth-Application-Id": "26755"
+    }
+  },
+  "Mobilizer-Url": "http://api.miniapps.run/push",
+  "Tipay-Url": "http://localhost:8080/api/payment/",
+  "Plugin-Url": "http://localhost:8080/tipay/",
+  "Merchant-Id": "eyeline.mobi"
 }
