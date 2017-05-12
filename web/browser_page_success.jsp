@@ -25,7 +25,7 @@
 <table>
   <tr>
     <td><b>Сумма платежа:</b></td>
-    <td><%=c.getOrderAmount()%> руб</td>
+    <td><%=c.getOrderAmount()/100%> руб</td>
   </tr>
   <tr>
     <td><b>Идентификатор транзакции:</b></td>
