@@ -28,7 +28,7 @@
     Property cardRefProperty = profile.getProperty("tipay", "card_ref");
     String cardRef = cardRefProperty != null ? cardRefProperty.getValue() : null;
     paymentContext.setCardRef(cardRef);
-    if (pin == null) return "define_pin.jsp";
+    if (pin == null || pin.length() == 0) return "define_pin.jsp";
     return "request_pin.jsp";
   }
 %>
