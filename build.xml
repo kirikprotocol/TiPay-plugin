@@ -1,0 +1,24 @@
+<project xmlns:ivy="antlib:org.apache.ivy.ant" name="frontend-mobilizer" basedir=".">
+
+	<property name="lib-dir" location="${basedir}/lib"/>
+	<property name="build-dir" location="${basedir}/.build"/>
+
+	<condition property="resolver" value="eyeline" else="snapshot">
+		<isset property="JENKINS_VERSION"/>
+	</condition>
+
+	<target name="resolve" description="retrieve dependencies with ivy">
+		<ivy:settings file="${user.home}/.ivy2/ivysettings.xml"/>
+
+		<ivy:resolve transitive="false"/>
+		<delete dir="${lib-dir}" failonerror="false"/>
+		<mkdir dir="${lib-dir}"/>
+		<ivy:retrieve pattern="${lib-dir}/[artifact]-[revision].[ext]" type="jar,bundle" symlink="true"/>
+
+		<delete dir="${build-dir}/report" failonerror="false"/>
+		<mkdir dir="${build-dir}/report"/>
+		<ivy:report todir="${build-dir}/report" graph="true"/>
+	</target>
+
+</project>
+
